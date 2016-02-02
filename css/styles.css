@@ -6,6 +6,9 @@
 	background-color: lightgreen;
 }
 
+body{
+	background-color: #F3FAB6;
+}
 
 /* --------------------------------------
    Layout
@@ -28,7 +31,7 @@ footer {
 /*	color: #eee; */
 	font-size: 11px;
 	padding: 20px;
-	background-color: black;
+	background-color: #C1E1A6;
 }
 
 /* --------------------------------------
