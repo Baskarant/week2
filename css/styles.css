@@ -35,9 +35,12 @@ footer {
    Typography
    -------------------------------------- */
 
+/* Style for Body */
+
 body {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
+	/* min-width: 320px; */
 }
 
 .well .page-header {
@@ -85,17 +88,27 @@ ul.unstyled {
 
 #myCarousel .item { height: 400px; }
 
-#slide1 {
-	background: url('../images/carousel_medium_01.jpg') top center no-repeat;
-}
-
-#slide2 {
-	background: url('../images/carousel_medium_02.jpg') top center no-repeat;
-}
+/*
+ Image for  lower resolution
 
 #slide3 {
 	background: url('../images/carousel_medium_03.jpg') top center no-repeat;
 }
+
+*/
+
+#slide1 {
+	background: url('../images/cl.jpg') top center no-repeat;
+}
+
+#slide2 {
+	background: url('../images/cl2.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../images/cl3.jpg') top center no-repeat;
+}
+
 
 
 /* --------------------------------------
@@ -168,17 +181,25 @@ ul.unstyled {
 @media (max-width: 768px) {
 
 	#myCarousel .item { height: 310px; }
+/*
+image for medium resoluiton
+
+#slide3 {
+	background: url('../images/carousel_medium_03.jpg') top center no-repeat;
+}
+
+*/
 
 	#slide1 {
-		background: url('../images/carousel_small_01.jpg') top center no-repeat;
+		background: url('../images/cl_m.jpg') top center no-repeat;
 	}
 
 	#slide2 {
-		background: url('../images/carousel_small_02.jpg') top center no-repeat;
+		background: url('../images/cl2_m.jpg') top center no-repeat;
 	}
 
 	#slide3 {
-		background: url('../images/carousel_small_03.jpg') top center no-repeat;
+		background: url('../images/cl3_m.jpg') top center no-repeat;
 	}
 
 	.carousel-caption {
@@ -196,16 +217,25 @@ ul.unstyled {
 
 	#myCarousel .item { height: 500px; }
 
+/*
+
+Image for higher resolution
+
+#slide3 {
+	background: url('../images/carousel_medium_03.jpg') top center no-repeat;
+}
+*/
+
 	#slide1 {
-		background: url('../images/carousel_large_01.jpg') top center no-repeat;
+		background: url('../images/cl_l.jpg') top center no-repeat;
 	}
 
 	#slide2 {
-		background: url('../images/carousel_large_02.jpg') top center no-repeat;
+		background: url('../images/cl2_l.jpg') top center no-repeat;
 	}
 
 	#slide3 {
-		background: url('../images/carousel_large_03.jpg') top center no-repeat;
+		background: url('../images/cl3_l.jpg') top center no-repeat;
 	}
 
 }
